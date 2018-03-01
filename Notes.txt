@@ -1,0 +1,32 @@
+Why do we need a build?
+
+1. Combining Files
+    - bundling files to reduce number of HTTP request between HTML files and server
+2. Minifying Files
+3. Maintaining File Order
+    - Reduce file dependency 
+4. Transpilation
+5. Linting 
+
+Other Solutions
+
+1. Server-Side Tools -> ASP.NET, Rails, and etc. 
+
+Combine and minify JS and CSS, but cannot target other problems
+
+2. Task Runners -> Grunt, Gulp, and etc.
+
+Can generally solve the problem. For example: 
+
+transiple -> output -> Linting -> output -> ...  -> browser 
+
+Webpack Solution
+
+1. Specialized in processing inout files into output files by using "loaders"
+2. Can combine CSS, HTML fragments, Images, and Fonts into JS
+
+Webpack conventions
+
+1. Use npm not Bower
+2. Use Module System (AMD, CommonJS, or ES6 modules)
+
