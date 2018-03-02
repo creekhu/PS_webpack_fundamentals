@@ -79,6 +79,14 @@ module.exports = {
                         loader: path.resolve('loaders/strip')
                     }
                 ]
+            }, {
+                test: /\.html$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: "raw-loader"
+                    }
+                ]
             }
         ]
     },

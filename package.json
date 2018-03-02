@@ -11,6 +11,7 @@
 	"author": "Tianqi Hu",
 	"license": "ISC",
 	"devDependencies": {
+		"angular": "^1.4.3",
 		"babel-core": "^6.26.0",
 		"babel-loader": "^7.1.3",
 		"babel-preset-env": "^1.6.1",
@@ -21,6 +22,7 @@
 		"jshint-loader": "^0.8.4",
 		"json-loader": "^0.5.7",
 		"node-libs-browser": "^0.5.3",
+		"raw-loader": "^0.5.1",
 		"strip-json-comments": "^2.0.1",
 		"strip-loader": "^0.1.2",
 		"style-loader": "^0.20.2",
@@ -30,9 +32,12 @@
 		"webpack-dev-middleware": "^1.8.4"
 	},
 	"dependencies": {
+		"babel-preset-react": "^6.24.1",
 		"ejs": "^2.5.7",
 		"express": "^4.16.2",
 		"jquery": "^3.3.1",
-		"morgan": "^1.9.0"
+		"morgan": "^1.9.0",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0"
 	}
 }
